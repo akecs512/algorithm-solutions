@@ -1,5 +1,7 @@
 // Given two integers num1 and num2, return the sum of the two integers.
-//Intuition: I need to add the 2 numbers variables together and return the sum
+
+//INTUITION: I need to add the 2 numbers variables together and return the sum
+
 /**
  * @param {number} num1
  * @param {number} num2
