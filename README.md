@@ -26,7 +26,7 @@ Download [Node.js](https://nodejs.org/en/download)
 
 ## Usage
 
-    cd DIRECTORY_NAME
+    cd algorithms
     node ALGORITHM_FILENAME
 
 ## Credits
