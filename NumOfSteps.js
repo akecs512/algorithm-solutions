@@ -8,19 +8,20 @@
  * @param {number} num
  * @return {number}
  */
-var numberOfSteps = function(num) {
+var numberOfSteps = function (num) {
     //set the number of steps to 0
-    let steps = 0
+    let steps = 0;
     //while the number is not equal to 0
-    while (num != 0);{
-        //if the number is divisible by 2, then divide by 2, otherwise subtract 1
-    num % 2 === 0 ? num /= 2 : num--;
-    //continue counting the steps
-    steps++
+    while (num !== 0) {
+        //if the number is divisible by 2, then divide the number by 2, else subtract 1
+        num % 2 === 0 ? num /= 2 : num--;
+        //add the steps until the number is equal to 0 per the condition in line 15.
+        steps++;
     }
     //return the number of steps
-return steps
-    
+    return steps;
 };
 
 console.log(numberOfSteps(14));//6
+console.log(numberOfSteps(8));//4
+console.log(numberOfSteps(123));//12
